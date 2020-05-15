@@ -1,0 +1,67 @@
+body {
+  background-color: #a4cdec;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+h1 {
+  font-size: 24pt;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto 800px auto;
+}
+.container-table {
+  background-color: #fceadf;
+  font-size: small;
+  font-weight: normal;
+}
+table {
+  margin-right: 100px;
+}
+td {
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+td:first-child {
+  text-align: right;
+}
+input[type="text"],
+[type="email"],
+[type="number"] {
+  width: 300px;
+}
+textarea {
+  width: 300px;
+  resize: none;
+}
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: small;
+}
+.reset {
+  background-color: #a8210b;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: 1px solid red;
+  border-radius: 5px;
+  color: white;
+}
+.submit {
+  background-color: #3d7609;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: 1px solid green;
+  border-radius: 5px;
+  color: white;
+}
+::placeholder {
+  color: #c0c3c0;
+}
